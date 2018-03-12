@@ -10,7 +10,7 @@ If you would like to use Docker configuration, please get the source code (**ziz
 You system should be ready to run Docker of course and you need to make **run_me.sh** and **zizoo.py** executable (eg. **chmod 755 run_me.sh**).<br><br>
 To begin using **ZiZoo** find ZiZoo (ZiZoo_SPB_bot) in your Telegram client and type **/start** (press START button in your client).<br>
 <br>
-## Working with telegram bot:
+## Working with telegram bot
 Type **/start**  to get the welcome message. You also be proposed to get an additional help information.<br><br>
 Type **/help** to view a help information and example, how to use **ZiZoo** to get a copy of GitHub repository.<br><br>
 Type **/get username reponame** to get a copy of **github.com/username/reponame**. You will receive a zip-archive **username.reponame.zip** contins the clone of requested repository, eg. if you type **/get zizoo32 zizoo** you will receive **zizoo32.zizoo.zip** file contains the copy of **this** repository.<br><br>
