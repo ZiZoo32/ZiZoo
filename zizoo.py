@@ -170,7 +170,7 @@ def getrepo(bot, update, args):
     os.chdir("/var/repos")
 
     if (status == 0) or (status == 1):
-        zipfile_time = datetime.fromtimestamp(os.path.getmtime(zipfile_name)).strftime('%Y-%m-%d %H:%M:%S')
+        zipfile_time = datetime.fromtimestamp(os.path.getmtime(zipfile_name)).strftime('%Y-%m-%d %H:%M:%S') + " Moscow time (GMT+3)"
         bot.send_document(chat_id=update.message.chat_id, document=open(zipfile_name,'rb'))
         bot.send_message(chat_id=update.message.chat_id, text="Arhive created from GITHUB on " + zipfile_time + ". Thanks for using ZiZoo.")
         logger(user_info,status,request=args,zipfile_name=zipfile_name)
