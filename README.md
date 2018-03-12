@@ -6,8 +6,8 @@ Source code of **ZiZoo** is **zizoo.py** file. To get started with **ZiZoo** you
 You have to install python-telegram-bot and python-git python packages.<br>
 <br>
 ZiZoo was tested on Debian 9 and can works inside a docker container.<br>
-If you would like to use Docker configuration, please get the source code (**zizoo.py**), **Dockerfile** and **run_me.sh** and put them on the same directory in your system (eg, your home dir) and run **run_me.sh**<br>
-You system should be ready to run Docker of course and you need to make **run_me.sh** and **zizoo.py** executable (eg. **chmod 755 run_me.sh**).<br><br>
+If you would like to use Docker configuration, please get the source code (**zizoo.py**), **Dockerfile** and **runme.sh** and put them on the same directory in your system (eg, your home dir) and run **runme.sh**<br>
+You system should be ready to run Docker of course and you need to make **runme.sh** and **zizoo.py** executable (eg. **chmod 755 runme.sh**).<br><br>
 To begin using **ZiZoo** find ZiZoo (ZiZoo_SPB_bot) in your Telegram client and type **/start** (press START button in your client).<br>
 <br>
 ## Working with telegram bot
@@ -22,9 +22,9 @@ If you type wrong username or a name of repository, you will get a response that
 **ZiZoo** an process any other type of messages and command but responses do not contain any useful information, only suggestions to run **/help**.<br>
 ## Logging
 **ZiZoo** logs all actions it does. By default, all iformation store in **/var/log/zizoo.log**.<br><br>
-If you use Docker, **ZiZoo** uses log file inside the container. When you run **run_me.sh** it automatically creates an image, starts container and connects stdout to **ZiZoo** log using **tail** in follow mode (output appended data as the file grows).<br><br>
+If you use Docker, **ZiZoo** uses log file inside the container. When you run **runme.sh** it automatically creates an image, starts container and connects stdout to **ZiZoo** log using **tail** in follow mode (output appended data as the file grows).<br><br>
 You can also use any other tools to ckeck **ZiZoo** log. Use **docker exec -it zizoo \<command>**.<br><br>
-If you use the default configuration (**Dockerfile** and **run_me.sh**) docker container will be removed immediately after he stops.<br>
+If you use the default configuration (**Dockerfile** and **runme.sh**) docker container will be removed immediately after he stops.<br>
 If you run **zizoo.py** on a host system, use **\<Ctrl+C>** key to stop it.
 
 
