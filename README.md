@@ -14,6 +14,6 @@ You system should be ready to run Docker of course.<br>
 ## Working with telegram bot:
 Type **/start**  to get the welcome message. You also be proposed to get an additional help information.<br>
 Type **/help** to view a help information and example, how to use ZiZoo to get a copy of GitHub repository.<br>
-Type **/get username reponame** to get a copy of **github.com/username/reponame**. You will receive a zip-archive **username.reponame.zip** contins the clone of requested repository, eg. if you type **/get zizoo32 zizoo** you will receive the copy of this repository.<br>
+Type **/get username reponame** to get a copy of **github.com/username/reponame**. You will receive a zip-archive **username.reponame.zip** contins the clone of requested repository, eg. if you type **/get zizoo32 zizoo** you will receive the copy of **this** repository.<br>
 Zip archives locate on the same system with zizoo.py run. If the archive of the requested repository is already exists, ZiZoo will not make a copy of the repository, just send the archive to the requester.
 
