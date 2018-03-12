@@ -12,12 +12,12 @@ To begin using **ZiZoo** find ZiZoo (ZiZoo_SPB_bot) in your Telegram client and 
 <br>
 ## Working with telegram bot
 Type **/start**  to get a welcome message.<br><br>
-Type **/help** to view a help information and example, how to use **ZiZoo** to get a copy of GitHub repository.<br><br>
-Type **/get username reponame** to get a copy of **github.com/username/reponame**. You will receive a zip-archive **username.reponame.zip** contins the clone of requested repository, eg. if you type **/get zizoo32 zizoo** you will receive **zizoo32.zizoo.zip** file contains the copy of **this** repository.<br><br>
-Zip archives locate on the same system with zizoo.py run. If the archive of the requested repository is already exists, **ZiZoo** will not make a copy of the repository, just send the archive to the requester. But if the archive was made more than a week ago, it will be created again. <br>
-You will receive a time creation information in the next message from **ZiZoo**. Please note, that **ZiZoo** uses MSK timezone (GMT+3).<br><br>
-**username** and **reponame** should be type next to **/get** command and contains English letters and digits only. If you use non-ASCII symbols in your request, you will get an error message.<br><br>
-You need to put two arguments (**usernname** and **reponame**) in **/get** request, if you put less than two, you will receive an error message. If you put more than two arguments, all arguments since third will be ignored.<br><br>
+Type **/help** to view help information and example, how to use **ZiZoo** in order to get a copy of GitHub repository.<br><br>
+Type **/get username reponame** to get a copy of **github.com/username/reponame**. You receive a zip-archive **username.reponame.zip** that contains the clone of the requested repository, eg. if you type **/get zizoo32 zizoo** you will receive **zizoo32.zizoo.zip** file with the copy of **this** repository.<br><br>
+Zip-archives are located in the same system where **zizoo.py** runs. If the archive of the requested repository already exists, **ZiZoo** will not make a copy of the repository, it will just send the archive to the requester. But if the archive was created more than a week ago, you would get a new one. <br>
+You receive an archive creation time in the next message from **ZiZoo**. Please note, that **ZiZoo** uses MSK timezone (GMT+3).<br><br>
+Type **username** and **reponame** next to **/get** command and use English letters and digits only. If you use non-ASCII symbols in your request, you will get an error message.<br><br>
+Type no less than two arguments (**usernname** and **reponame**) in **/get** request. If you put less than two, you will receive an error message. If you put more than two arguments, all unnecessary arguments will be ignored.<br><br>
 If you type wrong username or a name of repository, you will get a response that such repository does not exist.<br><br>
 **ZiZoo** an process any other type of messages and command but responses do not contain any useful information, only suggestions to run **/help**.<br>
 ## Logging
