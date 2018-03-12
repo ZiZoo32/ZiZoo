@@ -22,8 +22,9 @@ You need to put two arguments (**usernname** and **reponame**) in **/get** reque
 If you type wrong username or a name of repository, you will get a response that such repository does not exist.<br><br>
 **ZiZoo** an process any other type of messages and command but responses do not contain any useful information, only suggestions to run **/help**.<br>
 # Logging
-**ZiZoo** logs all actions it does. By default, all iformation store in **/var/log/zizoo.log**. If you use Docker, **ZiZoo** uses log file inside the container. When you run **run_me.sh** it automatically creates an image, starts container and connects stdout to **ZiZoo** log using **tail** in follow mode (output appended data as the file grows). You can also use any other tools to ckeck **ZiZoo** log. Use **docker exec -it zizoo <command>**.
-
+**ZiZoo** logs all actions it does. By default, all iformation store in **/var/log/zizoo.log**.<br>
+If you use Docker, **ZiZoo** uses log file inside the container. When you run **run_me.sh** it automatically creates an image, starts container and connects stdout to **ZiZoo** log using **tail** in follow mode (output appended data as the file grows).<br>
+You can also use any other tools to ckeck **ZiZoo** log. Use **docker exec -it zizoo \<command>**.
 
 
 
