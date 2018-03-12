@@ -10,4 +10,6 @@ ZiZoo was tested on Debian 9 and can works inside a docker container. If you wou
 You system should be ready to run Docker of course.
 
 ## Working with telegram bot:
-**/start** - returns the welcome message and suggest to use /help
+Type **/start**  to get the welcome message. You also be proposed to get an additional help information
+Type **/help** to view a help information and example, how to use ZiZoo to get a copy of GitHub repository 
+Type **/get username reponame** to get a copy of **github.com/username/reponame**. You will receive a zip-archive **username.reponame.zip** contins the clone of requested repository, eg. if you type 
