@@ -5,13 +5,13 @@ The project is created on Python 2.7 using python-telegram-bot API.<br><br>
 The source code of **ZiZoo** is a **zizoo.py** file. To start working with **ZiZoo** you need python v2 and git installed on your system.<br>
 You have to install python-telegram-bot and python-git packages as well.<br>
 <br>
-ZiZoo was tested on Debian 9 and can work inside a docker container.<br>
+ZiZoo was tested on Debian 9 and can work inside a docker container.<br><br>
 If you use Docker configuration, please get the source code (**zizoo.py**), **Dockerfile** and **runme.sh** and put them on the same directory in your system (eg. your home dir) and run **runme.sh**<br>
 Prepare your system for running Docker and make sure that **runme.sh** is executable (run **chmod 755 runme.sh**).<br><br>
-To begin using **ZiZoo** find ZiZoo (ZiZoo_SPB_bot) in your Telegram client and type **/start** (press START button in your client interface).<br>
+To begin using **ZiZoo** find ZiZoo (ZiZoo_SPB_bot) in your Telegram client and type **/start** or press START button in your client interface.<br>
 <br>
 ## Working with telegram bot
-Type **/start**  to get the welcome message. You also be proposed to get an additional help information.<br><br>
+Type **/start**  to get a welcome message.<br><br>
 Type **/help** to view a help information and example, how to use **ZiZoo** to get a copy of GitHub repository.<br><br>
 Type **/get username reponame** to get a copy of **github.com/username/reponame**. You will receive a zip-archive **username.reponame.zip** contins the clone of requested repository, eg. if you type **/get zizoo32 zizoo** you will receive **zizoo32.zizoo.zip** file contains the copy of **this** repository.<br><br>
 Zip archives locate on the same system with zizoo.py run. If the archive of the requested repository is already exists, **ZiZoo** will not make a copy of the repository, just send the archive to the requester. But if the archive was made more than a week ago, it will be created again. <br>
