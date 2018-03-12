@@ -18,14 +18,14 @@ Zip-archives are located in the same system where **zizoo.py** runs. If the arch
 You receive an archive creation time in the next message from **ZiZoo**. Please note, that **ZiZoo** uses MSK timezone (GMT+3).<br><br>
 Type **username** and **reponame** next to **/get** command and use English letters and digits only. If you use non-ASCII symbols in your request, you will get an error message.<br><br>
 Type no less than two arguments (**usernname** and **reponame**) in **/get** request. If you put less than two, you will receive an error message. If you put more than two arguments, all unnecessary arguments will be ignored.<br><br>
-If you type wrong username or a name of repository, you will get a response that such repository does not exist.<br><br>
-**ZiZoo** an process any other type of messages and command but responses do not contain any useful information, only suggestions to run **/help**.<br>
+If you type a wrong username or a name of the repository, you will get a response that such repository does not exist.<br><br>
+**ZiZoo** can process any other type of messages and commands but it's responses do not contain any useful information, only suggestions to run **/help**.<br>
 ## Logging
-**ZiZoo** logs all actions it does. By default, all iformation store in **/var/log/zizoo.log**.<br><br>
-If you use Docker, **ZiZoo** uses log file inside the container. When you run **runme.sh** it automatically creates an image, starts container and connects stdout to **ZiZoo** log using **tail** in follow mode (output appended data as the file grows).<br><br>
-You can also use any other tools to ckeck **ZiZoo** log. Use **docker exec -it zizoo \<command>**.<br><br>
-If you use the default configuration (**Dockerfile** and **runme.sh**) docker container will be removed immediately after he stops.<br>
-If you run **zizoo.py** on a host system, use **\<Ctrl+C>** key to stop it.
+**ZiZoo** logs all actions it performs. By default, all iformation stores in **/var/log/zizoo.log**.<br><br>
+In case of Docker is used, **ZiZoo** writes all events to the log file inside of the container. **runme.sh** automatically creates an image, runs container and connects stdout to **ZiZoo** log using **tail** in follow mode (output appended data as the file grows).<br><br>
+You can also use any other tools to check **ZiZoo** log. Use **docker exec -it zizoo \<command>**.<br><br>
+In default configuration (**Dockerfile** and **runme.sh**) docker container will be removed immediately after it stops.<br>
+On a host system, use **\<Ctrl+C>** key to stop **zizoo.py**.
 
 
 
