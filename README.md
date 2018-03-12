@@ -21,10 +21,12 @@ You will receive a time creation information in the next message from **ZiZoo**.
 You need to put two arguments (**usernname** and **reponame**) in **/get** request, if you put less than two, you will receive an error message. If you put more than two arguments, all arguments since third will be ignored.<br><br>
 If you type wrong username or a name of repository, you will get a response that such repository does not exist.<br><br>
 **ZiZoo** an process any other type of messages and command but responses do not contain any useful information, only suggestions to run **/help**.<br>
-# Logging
+## Logging
 **ZiZoo** logs all actions it does. By default, all iformation store in **/var/log/zizoo.log**.<br><br>
 If you use Docker, **ZiZoo** uses log file inside the container. When you run **run_me.sh** it automatically creates an image, starts container and connects stdout to **ZiZoo** log using **tail** in follow mode (output appended data as the file grows).<br><br>
-You can also use any other tools to ckeck **ZiZoo** log. Use **docker exec -it zizoo \<command>**.
+You can also use any other tools to ckeck **ZiZoo** log. Use **docker exec -it zizoo \<command>**.<br><br>
+If you use the default configuration (**Dockerfile** and **run_me.sh**) docker container will be removed immediately after he stops.<br>
+If you run **zizoo.py** on a host system, use **\<Ctrl+C>** key to stop it.
 
 
 
