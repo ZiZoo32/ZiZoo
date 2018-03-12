@@ -18,6 +18,6 @@ Type **/get username reponame** to get a copy of **github.com/username/reponame*
 Zip archives locate on the same system with zizoo.py run. If the archive of the requested repository is already exists, **ZiZoo** will not make a copy of the repository, just send the archive to the requester. But if the archive was made more than a week ago, it will be created again. <br>
 You will receive a time creation information in the next message from **ZiZoo**. Please note, that **ZiZoo** uses MSK timezone (GMT+3).<br><br>
 **username** and **reponame** should be type next to **/get** command and contains English letters and digits only. If you use non-ASCII symbols in your request, you will get an error message.<br><br>
-You need to put two arguments (**usernname** and **reponame**) in **/get** request, if you put less than two, you will receive an error message.<br> If you put more than two arguments, all arguments since third will be ignored.<br><br>
+You need to put two arguments (**usernname** and **reponame**) in **/get** request, if you put less than two, you will receive an error message. If you put more than two arguments, all arguments since third will be ignored.<br><br>
 
 
