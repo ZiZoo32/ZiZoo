@@ -1,14 +1,14 @@
 # ZiZoo
 
-The project contains a Telegram bot provides a zip archive of a requested repository from GitHub. <br>
-The project created on Python 2.7 and uses python-telegram-bot API.<br><br>
-Source code of **ZiZoo** is **zizoo.py** file. To get started with **ZiZoo** you need python v2 and git installed on your system.<br>
-You have to install python-telegram-bot and python-git python packages.<br>
+The project is a Telegram bot that provides a zip-archive of a repository from GitHub. <br>
+The project is created on Python 2.7 using python-telegram-bot API.<br><br>
+The source code of **ZiZoo** is a **zizoo.py** file. To start working with **ZiZoo** you need python v2 and git installed on your system.<br>
+You have to install python-telegram-bot and python-git packages as well.<br>
 <br>
-ZiZoo was tested on Debian 9 and can works inside a docker container.<br>
-If you would like to use Docker configuration, please get the source code (**zizoo.py**), **Dockerfile** and **runme.sh** and put them on the same directory in your system (eg, your home dir) and run **runme.sh**<br>
-You system should be ready to run Docker of course and you need to make **runme.sh** and **zizoo.py** executable (eg. **chmod 755 runme.sh**).<br><br>
-To begin using **ZiZoo** find ZiZoo (ZiZoo_SPB_bot) in your Telegram client and type **/start** (press START button in your client).<br>
+ZiZoo was tested on Debian 9 and can work inside a docker container.<br>
+If you use Docker configuration, please get the source code (**zizoo.py**), **Dockerfile** and **runme.sh** and put them on the same directory in your system (eg. your home dir) and run **runme.sh**<br>
+Prepare your system for running Docker and make sure that **runme.sh** is executable (run **chmod 755 runme.sh**).<br><br>
+To begin using **ZiZoo** find ZiZoo (ZiZoo_SPB_bot) in your Telegram client and type **/start** (press START button in your client interface).<br>
 <br>
 ## Working with telegram bot
 Type **/start**  to get the welcome message. You also be proposed to get an additional help information.<br><br>
